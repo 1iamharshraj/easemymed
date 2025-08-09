@@ -1,12 +1,16 @@
 # Dependencies
 node_modules/
+frontend/node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+lerna-debug.log*
 
 # Production builds
 build/
 dist/
+frontend/build/
+frontend/dist/
 
 # Environment variables
 .env
@@ -14,29 +18,50 @@ dist/
 .env.development.local
 .env.test.local
 .env.production.local
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# React Scripts
+frontend/.eslintcache
+
+# Testing
+coverage/
+frontend/coverage/
+*.lcov
 
 # IDE files
 .vscode/
 .idea/
 *.swp
 *.swo
+.sublime-project
+.sublime-workspace
 
 # OS files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
+*~
 
 # Log files
 logs
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
 # Runtime data
 pids
 *.pid
 *.seed
 *.pid.lock
-
-# Coverage directory used by tools like istanbul
-coverage/
 
 # Dependency directories
 jspm_packages/
@@ -49,39 +74,83 @@ jspm_packages/
 
 # Output of 'npm pack'
 *.tgz
+*.tar.gz
 
-# Yarn Integrity file
+# Yarn files
 .yarn-integrity
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
 
-# dotenv environment variables file
-.env
+# Package-lock files (if using yarn)
+frontend/package-lock.json
 
-# parcel-bundler cache (https://parceljs.org/)
+# Parcel bundler cache
 .cache
 .parcel-cache
 
-# next.js build output
+# Next.js build output
 .next
+out
 
-# nuxt.js build output
+# Nuxt.js build output
 .nuxt
 
-# vuepress build output
+# Gatsby files
+.cache/
+public
+
+# Vue.js build output
 .vuepress/dist
 
-# Serverless directories
-.serverless
+# Storybook build outputs
+.out
+.storybook-out
 
 # Temporary folders
 tmp/
 temp/
 
+# TypeScript cache
+*.tsbuildinfo
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional stylelint cache
+.stylelintcache
+
+# SvelteKit build / generate output
+.svelte-kit
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
 .idea
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# Vercel
+.vercel
+
+# Firebase
+.firebase/
+firebase-debug.log
+firestore-debug.log
+
+# Sentry
+.sentryclirc
+
+# Local Netlify folder
+.netlify
