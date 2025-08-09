@@ -33,7 +33,13 @@ const ProductDropdown = (props) => {
                         Health Copilot
                     </a>
                     <a
-                        href="/health-facility-product"
+                        href="/telemedicine"
+                        className={`${props.menuTextStyle} block px-4 py-2 hover:bg-blue-50 text-nowrap`}
+                    >
+                        TeleCare
+                    </a>
+                    <a
+                        href="/camps"
                         className={`${props.menuTextStyle} block px-4 py-2 hover:bg-blue-50 text-nowrap`}
                     >
                         Paperless

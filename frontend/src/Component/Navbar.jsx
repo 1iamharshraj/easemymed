@@ -21,10 +21,6 @@ const Navbar = () => {
       link: "/blogs",
     },
     {
-      name: "Camps",
-      link: "/camps",
-    },
-    {
       name: "About Us",
       link: "/about",
     },
@@ -135,7 +131,14 @@ const Navbar = () => {
                   Health Copilot
                 </a>
                 <a
-                  href="/health-facility-product"
+                  href="/telemedicine"
+                  className="block py-2 text-sm text-[#667085] hover:text-blue-600 transition-colors"
+                  onClick={() => setNavCollapse(false)}
+                >
+                  TeleCare
+                </a>
+                <a
+                  href="/camps"
                   className="block py-2 text-sm text-[#667085] hover:text-blue-600 transition-colors"
                   onClick={() => setNavCollapse(false)}
                 >
