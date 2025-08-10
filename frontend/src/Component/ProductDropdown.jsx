@@ -39,10 +39,16 @@ const ProductDropdown = (props) => {
                         TeleCare
                     </a>
                     <a
-                        href="/camps"
+                        href="/"
                         className={`${props.menuTextStyle} block px-4 py-2 hover:bg-blue-50 text-nowrap`}
                     >
                         Paperless
+                    </a>
+                    <a
+                        href="/camps"
+                        className={`${props.menuTextStyle} block px-4 py-2 hover:bg-blue-50 text-nowrap`}
+                    >
+                        Paperless Camps
                     </a>
                     <a
                         href="https://mydigimitra.com"

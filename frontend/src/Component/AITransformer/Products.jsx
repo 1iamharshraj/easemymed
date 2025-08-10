@@ -334,7 +334,7 @@ const Products = () => {
               <p className="font-semibold md:text-5xl text-3xl md:text-nowrap text-wrap leading-normal">
                 <span className="text-blue-500 text-headingSmall md:text-headingLarge">EaseMy</span>
                 <span className="text-red-500 text-headingSmall md:text-headingLarge">Med</span> 
-                <span className="text-teal-600 text-headingSmall md:text-headingLarge"> TeleCare</span>
+                <span className="text-blue-600 text-headingSmall md:text-headingLarge"> TeleCare</span>
               </p>
               
               <p className="text-SubGray text-[18px] leading-relaxed pt-6">
@@ -343,12 +343,12 @@ const Products = () => {
 
               <div className="flex flex-wrap gap-2 mt-6">
                 <span className="px-3 py-1 bg-blue-50 text-blue-700 text-sm rounded-full border border-blue-200">AI Diagnosis Support</span>
-                <span className="px-3 py-1 bg-green-50 text-green-700 text-sm rounded-full border border-green-200">Virtual Consultations</span>
+                <span className="px-3 py-1 bg-gray-100 text-black text-sm rounded-full border border-gray-300">Virtual Consultations</span>
                 <span className="px-3 py-1 bg-purple-50 text-purple-700 text-sm rounded-full border border-purple-200">Smart Documentation</span>
               </div>
 
               <Link to="/telemedicine">
-                <button className="mt-10 font-medium text-teal-600 flex items-end gap-1 hover:underline hover:text-teal-700 transition-colors">
+                <button className="mt-10 font-medium text-blue-600 flex items-end gap-1 hover:underline hover:text-blue-700 transition-colors">
                   Learn more
                   <span className="pb-[3px]">
                     <HiMiniArrowTopRightOnSquare />

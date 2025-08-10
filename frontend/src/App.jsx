@@ -9,6 +9,7 @@ import ContactUs from "./Pages/ContactUs";
 import AboutUs from "./Pages/AboutUs";
 import Blogs from "./Pages/Blogs";
 import EaseMyMedCamps from "./Pages/EaseMyMedCamps";
+import PaperlessCamp from "./Pages/PaperlessCamp";
 import ARMedicalSurgery from "./Blogs/ARMedicalSurgery";
 import SurgeryWithAi from "./Blogs/SurgeryWithAi";
 import ArAiInMedicine from "./Blogs/ArAiInMedicine";
@@ -25,7 +26,7 @@ function App() {
           <Route path="/contact" element={<ContactUs />} />
           <Route path="/about" element={<AboutUs />} />
           <Route path="/blogs" element={<Blogs />} />
-          <Route path="/camps" element={<EaseMyMedCamps />} />
+          <Route path="/camps" element={<PaperlessCamp />} />
           
           {/* Individual Blog Posts */}
           <Route 

@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Navbar from '../Component/Navbar';
 import Footer from '../Component/Footer';
 
-const EaseMyMedCamps = () => {
+const PaperlessCamp = () => {
   const benefits = [
     {
       id: 1,
@@ -106,8 +107,8 @@ const EaseMyMedCamps = () => {
         {/* Background decorations */}
         <div className="absolute inset-0">
           <div className="absolute top-20 left-10 w-40 h-40 bg-white/10 rounded-full blur-3xl"></div>
-          <div className="absolute bottom-20 right-20 w-64 h-64 bg-emerald-300/20 rounded-full blur-3xl"></div>
-          <div className="absolute top-1/2 left-1/3 w-32 h-32 bg-teal-400/15 rounded-full blur-2xl"></div>
+          <div className="absolute bottom-20 right-20 w-64 h-64 bg-blue-300/20 rounded-full blur-3xl"></div>
+          <div className="absolute top-1/2 left-1/3 w-32 h-32 bg-primary-400/15 rounded-full blur-2xl"></div>
         </div>
         <div className="relative z-10 px-mobile xl:px-xlarge lg:px-large 2xl:max-w-[1440px] 2xl:mx-auto pt-16 pb-20 lg:pt-20 lg:pb-28">
           <div className="text-center max-w-4xl mx-auto">
@@ -380,4 +381,4 @@ const EaseMyMedCamps = () => {
   );
 };
 
-export default EaseMyMedCamps;
+export default PaperlessCamp;
